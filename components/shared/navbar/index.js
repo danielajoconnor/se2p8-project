@@ -2,10 +2,10 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Accomodation", href: "#", current: false },
-  { name: "Things to Do", href: "#", current: false },
-  { name: "What's On", href: "#", current: false },
-  { name: "Blog", href: "#", current: false },
+  { name: "Accomodation", href: "./accommodation", current: false },
+  { name: "Things to Do", href: "./thingsToDo", current: false },
+  { name: "What's On", href: "./whatsOn", current: false },
+  { name: "Blog", href: "blog", current: false },
 ];
 
 function classNames(...classes) {
@@ -31,18 +31,21 @@ export default function NavBar() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex  items-center">
-                  <img
-                    className="block h-10 flex-shrink-0 w-auto lg:hidden"
-                    src="/images/logo.png"
-                    alt="Your Company"
-                  />
-                  <img
-                    className="hidden h-10 w-auto lg:block"
-                    src="/images/logo.png"
-                    alt="Your Company"
-                  />
-                </div>
+                <a href="/">
+                  <div className="flex  items-center">
+                    <img
+                      className="block h-10 flex-shrink-0 w-auto lg:hidden"
+                      src="/images/logo.png"
+                      alt="Your Company"
+                    />
+                    <img
+                      className="hidden h-10 w-auto lg:block"
+                      src="/images/logo.png"
+                      alt="Your Company"
+                    />
+                  </div>
+                </a>
+
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
