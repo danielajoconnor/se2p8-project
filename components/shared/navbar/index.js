@@ -14,7 +14,7 @@ function classNames(...classes) {
 
 export default function NavBar() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-green-800">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -33,12 +33,12 @@ export default function NavBar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex  items-center">
                   <img
-                    className="block h-8 flex-shrink-0 w-auto lg:hidden"
+                    className="block h-10 flex-shrink-0 w-auto lg:hidden"
                     src="/images/logo.png"
                     alt="Your Company"
                   />
                   <img
-                    className="hidden h-8 w-auto lg:block"
+                    className="hidden h-10 w-auto lg:block"
                     src="/images/logo.png"
                     alt="Your Company"
                   />
@@ -51,9 +51,9 @@ export default function NavBar() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
+                            ? "bg-green-900 text-white"
+                            : "text-gray-300 hover:bg-green-900 hover:text-white",
+                          "rounded-md px-3 py-2 text-lg font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
