@@ -1,3 +1,9 @@
+import NavBar from "@/components/shared/navbar";
+
 export default function WhatsOn() {
-  return <div>What's On</div>;
+  return (
+    <div>
+      <NavBar></NavBar>
+    </div>
+  );
 }

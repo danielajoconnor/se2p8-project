@@ -1,3 +1,9 @@
+import NavBar from "@/components/shared/navbar";
+
 export default function () {
-  return <div>Things to Do</div>;
+  return (
+    <div>
+      <NavBar></NavBar>
+    </div>
+  );
 }

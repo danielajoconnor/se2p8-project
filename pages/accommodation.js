@@ -1,3 +1,9 @@
+import NavBar from "@/components/shared/navbar";
+
 export default function Accommodation() {
-  return <div>Accommodation</div>;
+  return (
+    <div>
+      <NavBar></NavBar>
+    </div>
+  );
 }
