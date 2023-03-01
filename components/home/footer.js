@@ -43,9 +43,10 @@ export default function Footer() {
       </div>
 
       <div class="bg-green-700 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
-        © 2023 Copyright:
-        <a class="dark:text-neutral-400" href="https://tailwind-elements.com/">
-          Tailwind Elements
+        <span className="mr-1">© 2023 Copyright:</span>
+
+        <a class="dark:text-neutral-400" href="/">
+          Lakes
         </a>
       </div>
     </footer>
