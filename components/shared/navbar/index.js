@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <div>
       <nav className="w-full text-xl font-mono p-5">
-        <ul className="w-full flex flex-row flex-wrap justify-center items-center gap-x-10 bg-green-50">
+        <ul className="w-full flex flex-row flex-wrap justify-center items-center gap-x-10 ">
           <li className="basis-full ">
             <a href="/">
               <img
@@ -32,11 +32,6 @@ export default function NavBar() {
           </li>
 
           <li>
-            <a href="/blog" className="text-green-800 block hover:text-black">
-              Blog
-            </a>
-          </li>
-          <li>
             <a
               href="/contact"
               className="text-green-800 block hover:text-black"
@@ -55,6 +50,14 @@ export default function NavBar() {
                 className="icon-instagram text-fuchsia-700 mr-1 text-2xl hover:text-black"
               />
               <span className="text-cyan-200 sr-only">Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="/blog"
+              className="text-white block hover:text-black bg-green-700 hover:bg-fuchsia-600 rounded-lg px-2 py-1"
+            >
+              Blog
             </a>
           </li>
         </ul>
