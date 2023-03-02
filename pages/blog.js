@@ -5,9 +5,9 @@ import Content from "@/components/home/content";
 export default function Blog() {
   return (
     <div>
-      <NavBar></NavBar>
+      <NavBar/>
       <Content></Content>
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 }

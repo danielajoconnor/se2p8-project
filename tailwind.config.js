@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: { 
         'sans': ['Roboto', 'sans-serif'],
+        'serif': ['Gloock', 'serif'],
     },
       colors: {
         nature1: "hsl(46, 15%, 83%)",

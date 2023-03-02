@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <div>
  
-      <header className="w-full flex justify-between items-center w-full max-w-screen-xl mx-auto bg-nature3 text-white">
+      <header className="w-full flex justify-between items-center max-w-screen-2xl mx-auto bg-nature4 text-white">
         <div className="p-1">
           <a href="/">
             <img
