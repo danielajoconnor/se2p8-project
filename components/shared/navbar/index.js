@@ -4,13 +4,13 @@ import { faInstagram, faBrands } from "@fortawesome/free-brands-svg-icons";
 export default function NavBar() {
   return (
     <div>
-      <nav className="w-full text-xl font-mono p-5">
+      <nav className="w-full text-xl font-mono p-5 max-w-screen-xl mx-auto">
         <ul className="w-full flex flex-row flex-wrap justify-center items-center gap-x-10 ">
-          <li className="basis-full ">
+          <li className="basis-full lg:basis-auto lg:mr-auto ">
             <a href="/">
               <img
                 src="images/cropped-logo.png"
-                className="h-14 mx-auto mb-2"
+                className="h-14 mx-auto lg:mx-0  mb-2"
               />
             </a>
           </li>
