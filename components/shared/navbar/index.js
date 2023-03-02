@@ -30,14 +30,7 @@ export default function NavBar() {
               Things to Do
             </a>
           </li>
-          <li>
-            <a
-              href="/whatsOn"
-              className="text-green-800 block hover:text-black"
-            >
-              What's On
-            </a>
-          </li>
+
           <li>
             <a href="/blog" className="text-green-800 block hover:text-black">
               Blog
