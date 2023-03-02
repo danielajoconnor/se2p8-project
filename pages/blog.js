@@ -1,5 +1,5 @@
 import NavBar from "@/components/shared/navbar";
-import Footer from "@/components/home/footer";
+import Footer from "@/components/shared/footer/footer";
 import Content from "@/components/home/content";
 
 export default function Blog() {
