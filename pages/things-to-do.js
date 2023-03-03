@@ -6,7 +6,9 @@ export default function () {
   return (
     <div>
       <NavBar/>
-      <Content></Content>
+      <Content>
+        
+      </Content>
       <Footer/>
     </div>
   );

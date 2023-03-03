@@ -6,7 +6,9 @@ export default function Blog() {
   return (
     <div>
       <NavBar/>
-      <Content></Content>
+      <Content>
+        
+      </Content>
       <Footer/>
     </div>
   );
