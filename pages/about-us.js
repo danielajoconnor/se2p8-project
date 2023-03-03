@@ -7,7 +7,7 @@ export default function Accommodation() {
     <div>
       <NavBar/>
       <Content></Content>
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 }

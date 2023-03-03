@@ -5,21 +5,17 @@ import NavLink from "./nav-link";
 export default function NavBar() {
   return (
     <div>
- 
-      <header className="w-full flex justify-between items-center max-w-screen-2xl mx-auto bg-nature4 text-white">
-        <div className="p-1">
-          <a href="/">
-            <img
-              src="images/logo-transparent.png"
-              className="h-12 mx-auto"
-            />
-          </a>
+      <header className="w-full flex justify-between items-center max-w-screen-2xl mx-auto bg-nature4 text-nature1">
+        <div className="p-2 pl-3">
+          <NavLink href="/">
+            <img src="images/logo-transparent.png" className="h-12 mx-auto" />
+          </NavLink>
         </div>
 
-        <nav className="text-xl">
-          <ul className="flex flex-row flex-wrap gap-x-8">
+        <nav className="text-2xl">
+          <ul className="flex flex-row flex-wrap gap-x-8 font-serif">
             <li>
-              <NavLink href="/things-to-do" >Things to Do</NavLink>
+              <NavLink href="/things-to-do">Things to Do</NavLink>
             </li>
             <li>
               <NavLink href="/about-us">About Us</NavLink>
@@ -42,7 +38,6 @@ export default function NavBar() {
             </li>
           </ul>
         </nav>
-
       </header>
     </div>
   );

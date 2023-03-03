@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
 
 .hero-bg {
-    padding-top: 544px;
-    padding-bottom: 86px;
+  padding-top: 544px;
+  padding-bottom: 86px;
   background-image: linear-gradient(
       to top,
       hsla(0, 0%, 0%, 0.76) 0%,
@@ -29,4 +29,19 @@
     url("../public/images/panorama.jpg");
   background-position: center;
   background-size: cover;
+}
+
+.bg-langdale {
+  background-image: url("../public/images/langdale-image.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-langdale::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: hsla(0, 0%, 0%, 0.3);
+  /* this is used to darken the background image */
 }
