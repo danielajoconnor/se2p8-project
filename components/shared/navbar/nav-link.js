@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function NavLink({href, children}) {
-  return <Link href={href}>{children}</Link>;
+  return <Link className="hover:underline" href={href}>{children}</Link>;
 
 }
 

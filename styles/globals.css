@@ -5,8 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
 
 .hero-bg {
-  padding-top: 544px;
-  padding-bottom: 86px;
   background-image: linear-gradient(
       to top,
       hsla(0, 0%, 0%, 0.76) 0%,
@@ -30,6 +28,39 @@
   background-position: center;
   background-size: cover;
 }
+
+.about-us-bg {
+  background-image: linear-gradient(
+      to top,
+      hsla(0, 0%, 0%, 0.76) 0%,
+      hsla(0, 0%, 0%, 0.75) 4.7%,
+      hsla(0, 0%, 0%, 0.723) 10.1%,
+      hsla(0, 0%, 0%, 0.681) 16.1%,
+      hsla(0, 0%, 0%, 0.627) 22.5%,
+      hsla(0, 0%, 0%, 0.563) 29.3%,
+      hsla(0, 0%, 0%, 0.492) 36.4%,
+      hsla(0, 0%, 0%, 0.418) 43.7%,
+      hsla(0, 0%, 0%, 0.342) 51.1%,
+      hsla(0, 0%, 0%, 0.268) 58.6%,
+      hsla(0, 0%, 0%, 0.197) 66.1%,
+      hsla(0, 0%, 0%, 0.133) 73.4%,
+      hsla(0, 0%, 0%, 0.079) 80.6%,
+      hsla(0, 0%, 0%, 0.037) 87.4%,
+      hsla(0, 0%, 0%, 0.01) 93.9%,
+      hsla(0, 0%, 0%, 0) 100%
+    ),
+    url("../public/images/barrow-bay.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* .about-us-bg {
+  background-position: top;
+  background-size: cover;
+  background-image: url("../public/images/about-us-image.jpg");
+  object-fit: cover;
+  width: 100%;
+} */
 
 .bg-langdale {
   background-image: url("../public/images/langdale-image.jpg");
