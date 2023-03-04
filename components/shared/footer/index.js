@@ -1,4 +1,4 @@
-import Link from "next/link";
+import NavLink from "../navbar/nav-link";
 
 export default function Footer() {
   return (
@@ -8,27 +8,15 @@ export default function Footer() {
           <div className="md:border-0 flex flex-col md:flex-row md:gap-x-10 md:border justify-center p-2">
             ©2023 TheLakeDistrict
           </div>
-          <div className="border-l-2 border-nature1 md:border-0 flex flex-col md:flex-row md:gap-x-10 justify-center p-2">
-            <a className="hover:underline" href="/">
-              Privacy Policy
-            </a>
-            <a className="hover:underline" href="/">
-              Copyright
-            </a>
+          <div className="border-l-2 border-nature3 md:border-0 flex flex-col md:flex-row md:gap-x-10 justify-center p-2">
+            <NavLink href="/">Privacy Policy</NavLink>
+            <NavLink href="/">Copyright</NavLink>
           </div>
-          <div className="border-l-2 border-gray-300 md:border-0 flex flex-col md:flex-row md:gap-x-10 justify-center p-2">
-            <a className="hover:underline" href="/">
-              Home
-            </a>
-            <a className="hover:underline" href="/blogs">
-              Blogs
-            </a>
-            <a className="hover:underline" href="/aboutUs">
-              About
-            </a>
-            <a className="hover:underline" href="/contact">
-              Contact
-            </a>
+          <div className="border-l-2 border-nature3 md:border-0 flex flex-col md:flex-row md:gap-x-10 justify-center p-2">
+            <NavLink href="/">Home</NavLink>
+            <NavLink href="/blogs">Blogs</NavLink>
+            <NavLink href="/about-us">About</NavLink>
+            <NavLink href="/contact">Contact</NavLink>
           </div>
         </div>
       </footer>
