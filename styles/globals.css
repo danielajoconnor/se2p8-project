@@ -54,13 +54,6 @@
   background-size: cover;
 }
 
-/* .about-us-bg {
-  background-position: top;
-  background-size: cover;
-  background-image: url("../public/images/about-us-image.jpg");
-  object-fit: cover;
-  width: 100%;
-} */
 
 .bg-langdale {
   background-image: url("../public/images/langdale-image.jpg");
