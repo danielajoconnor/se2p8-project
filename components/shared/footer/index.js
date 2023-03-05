@@ -14,8 +14,8 @@ export default function Footer() {
           </div>
           <div className="border-l-2 border-nature3 md:border-0 flex flex-col md:flex-row md:gap-x-10 justify-center p-2 tracking-tight">
             <NavLink href="/">Home</NavLink>
-            <NavLink href="/blogs">Blogs</NavLink>
             <NavLink href="/about-us">About</NavLink>
+            <NavLink href="/blogs">Blogs</NavLink>
             <NavLink href="/contact">Contact</NavLink>
           </div>
         </div>

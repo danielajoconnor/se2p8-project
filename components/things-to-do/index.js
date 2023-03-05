@@ -9,9 +9,9 @@ export default function ThingsToDo() {
   return (
     <div>
       <div className="w-full text-center mx-auto bg-nature5">
-        <p className="pt-[94px] pb-[94px] font-serif text-3xl md:text-4xl tracking-tight text-nature1">
+        <h1 className="pt-[94px] pb-[94px] font-serif text-3xl md:text-4xl tracking-tight text-nature1">
           Explore all of the activities that the Lake District has to offer
-        </p>
+        </h1>
       </div>
       <div className="flex-layout w-full bg-nature4 text-nature1 ">
         <div>

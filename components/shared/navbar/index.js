@@ -18,16 +18,17 @@ export default function NavBar() {
               <NavLink href="/">Home</NavLink>
             </li>
             <li>
+              <NavLink href="/about-us">About Us</NavLink>
+            </li>
+            <li>
               <NavLink href="/things-to-do">Things to Do</NavLink>
             </li>
             <li>
               <NavLink href="/blogs">Blogs</NavLink>
             </li>
+
             <li>
-              <NavLink href="/about-us">About Us</NavLink>
-            </li>
-            <li>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="/news">News</NavLink>
             </li>
             <li>
               <a

@@ -17,7 +17,9 @@ module.exports = {
         nature4: "hsl(131, 22%, 29%)",
         nature5: "hsl(150, 20%, 25%)",
       },
-
+      textUnderlineOffset: {
+        6: '6px',
+      }
     },
   },
   plugins: [],

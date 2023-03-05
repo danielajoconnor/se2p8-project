@@ -1,4 +1,3 @@
-
 import Content from "@/components/shared/content";
 import News from "@/components/news";
 
@@ -7,6 +6,7 @@ export default function () {
     <div>
       
       <Content>
+      <News></News>
       </Content>
       
     </div>
