@@ -8,12 +8,12 @@ import SubTitle from "../shared/title/subtitle";
 export default function ThingsToDo() {
   return (
     <div>
-      <div className="w-full text-center w-2/3 mx-auto bg-nature5">
+      <div className="w-full text-center mx-auto bg-nature5">
         <p className="pt-[94px] pb-[94px] font-serif text-3xl md:text-4xl tracking-tight text-nature1">
           Explore all of the activities that the Lake District has to offer
         </p>
       </div>
-      <div className="flex-layout w-full bg-nature4 text-nature1">
+      <div className="flex-layout w-full bg-nature4 text-nature1 ">
         <div>
           <img src="/images/hiking.jpg" alt="" />
           {/* <div className="flex flex-col items-center justify-center p-5 max-w-[800px] xl:w-[620px] md:pt-0 text-center mx-auto"> */}
