@@ -4,7 +4,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
 
+
 @layer components {
+    #__next {
+      @apply relative z-[0]
+    }
     .flex-layout > div {
       @apply even:bg-nature5 odd:bg-nature4  even:flex-row-reverse md:flex md:flex-row md:items-center ;
     }
