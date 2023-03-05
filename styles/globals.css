@@ -4,6 +4,18 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
 
+@layer components {
+    .flex-layout > div {
+      @apply even:bg-nature5 odd:bg-nature4 even:flex-row-reverse md:flex md:flex-row md:items-center;
+    }
+    .flex-layout h2 {
+      @apply md:flex md:flex-row md:items-center mb-5;
+    }
+    .flex-layout p {
+      @apply text-xl md:text-2xl tracking-tight;
+    }
+}
+
 .hero-bg {
   background-image: linear-gradient(
       to top,
