@@ -5,11 +5,11 @@ import Content from "@/components/shared/content";
 export default function Blog() {
   return (
     <div>
-      <NavBar/>
+      
       <Content>
         
       </Content>
-      <Footer/>
+      
     </div>
   );
 }
