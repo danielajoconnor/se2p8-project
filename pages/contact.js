@@ -1,14 +1,13 @@
-import NavBar from "@/components/shared/navbar";
-import Footer from "@/components/shared/footer";
+
 import Content from "@/components/shared/content";
-import NewsApi from "@/components/newsapi";
+import News from "@/components/news";
 
 export default function () {
   return (
     <div>
       
       <Content>
-      <NewsApi></NewsApi>
+      <News></News>
       </Content>
       
     </div>

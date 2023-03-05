@@ -1,7 +1,5 @@
-import NavBar from "@/components/shared/navbar";
 import Hero from "@/components/home/hero";
 import Content from "@/components/shared/content";
-import Footer from "@/components/shared/footer";
 import Link from "next/link";
 import SubTitle from "@/components/shared/title/subtitle";
 
