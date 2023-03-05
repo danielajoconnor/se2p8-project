@@ -23,7 +23,7 @@ export default function Home() {
         <div className="md:flex md:flex-row md:items-center bg-nature5 ">
           {/* <div className="max-h-fit max-w-96 md:w-[559px] bg-langdale"></div> */}
           <div className="h-[400px] md:h-[559px] w-full md:w-[559px] bg-langdale"></div>
-          <div className="w-10/12 md:w-[620px] py-16 md:pt-0 text-center mx-auto text-nature1 md:0">
+          <div className="w-10/12 md:w-[620px] py-16 md:pt-0 text-center mx-auto text-nature1">
 
             <SubTitle className="pb-8 ">
               Langdale Valley

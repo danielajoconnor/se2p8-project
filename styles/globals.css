@@ -6,13 +6,16 @@
 
 @layer components {
     .flex-layout > div {
-      @apply even:bg-nature5 odd:bg-nature4 even:flex-row-reverse md:flex md:flex-row md:items-center;
+      @apply even:bg-nature5 odd:bg-nature4  even:flex-row-reverse md:flex md:flex-row md:items-center ;
     }
     .flex-layout h2 {
-      @apply md:flex md:flex-row md:items-center mb-5;
+      @apply md:flex md:flex-row md:items-center mb-5 ;
     }
     .flex-layout p {
-      @apply text-xl md:text-2xl tracking-tight;
+      @apply text-xl md:text-2xl tracking-tight text-justify;
+    }
+    .flex-layout img {
+      @apply h-[400px] md:h-[450px] md:max-w-[559px] w-full object-cover;
     }
 }
 
