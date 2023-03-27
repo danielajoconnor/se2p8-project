@@ -32,7 +32,7 @@ export default function NavBar() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/vikingtrips/?hl=en"
+                href="https://www.instagram.com/lakedistrict/?hl=en"
                 target="_blank"
                 className="block"
               >
