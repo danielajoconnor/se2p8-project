@@ -13,9 +13,9 @@ export default function ThingsToDo() {
           Explore all of the activities that the Lake District has to offer
         </h1>
       </div>
-      <div className="flex-layout w-full bg-nature4 text-nature1 ">
+      <div className="flex-layout w-full bg-nature4 text-nature1">
         <div>
-          <img src="/images/hiking.jpg" alt="" />
+          <img src="/images/hiking.jpg" alt="" loading="lazy"/>
           {/* <div className="flex flex-col items-center justify-center p-5 max-w-[800px] xl:w-[620px] md:pt-0 text-center mx-auto"> */}
           <div className="flex flex-col items-center justify-center px-5 py-16 md:py-0 max-w-[620px] text-center mx-auto">
             <SubTitle>Hiking</SubTitle>
@@ -33,7 +33,7 @@ export default function ThingsToDo() {
         </div>
 
         <div>
-          <img src="/images/biking2.jpg" alt="" />
+          <img src="/images/biking2.jpg" alt="" loading="lazy" />
           <div className="flex flex-col items-center justify-center px-5 py-16 md:py-0 max-w-[620px] text-center mx-auto">
             <SubTitle>Biking</SubTitle>
             <p>
@@ -50,7 +50,7 @@ export default function ThingsToDo() {
         </div>
 
         <div>
-          <img src="/images/camping.jpg" alt="" />
+          <img src="/images/camping.jpg" alt="" loading="lazy" />
           <div className="flex flex-col items-center justify-center px-5 py-16 md:py-0 max-w-[620px] text-center mx-auto">
             <SubTitle>Camping</SubTitle>
             <p>
@@ -67,7 +67,7 @@ export default function ThingsToDo() {
         </div>
 
         <div>
-          <img src="/images/paragliding.jpg" alt="" />
+          <img src="/images/paragliding.jpg" alt="" loading="lazy" />
           <div className="flex flex-col items-center justify-center px-5 py-16 md:py-0 max-w-[620px] text-center mx-auto">
             <SubTitle>Paragliding</SubTitle>
             <p>
