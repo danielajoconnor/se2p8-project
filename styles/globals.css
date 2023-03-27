@@ -1,3 +1,91 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+
+@layer components {
+    #__next {
+      @apply relative z-[0]
+    }
+    .flex-layout > div {
+      @apply even:bg-nature5 odd:bg-nature4  even:flex-row-reverse md:flex md:flex-row md:items-center ;
+    }
+    .flex-layout h2 {
+      @apply md:flex md:flex-row md:items-center mb-5 ;
+    }
+    .flex-layout p {
+      @apply text-xl md:text-2xl tracking-tight text-justify;
+    }
+    .flex-layout img {
+      @apply h-[400px] md:h-[450px] md:max-w-[559px] w-full object-cover;
+    }
+}
+
+.hero-bg {
+  background-image: linear-gradient(
+      to top,
+      hsla(0, 0%, 0%, 0.76) 0%,
+      hsla(0, 0%, 0%, 0.75) 4.7%,
+      hsla(0, 0%, 0%, 0.723) 10.1%,
+      hsla(0, 0%, 0%, 0.681) 16.1%,
+      hsla(0, 0%, 0%, 0.627) 22.5%,
+      hsla(0, 0%, 0%, 0.563) 29.3%,
+      hsla(0, 0%, 0%, 0.492) 36.4%,
+      hsla(0, 0%, 0%, 0.418) 43.7%,
+      hsla(0, 0%, 0%, 0.342) 51.1%,
+      hsla(0, 0%, 0%, 0.268) 58.6%,
+      hsla(0, 0%, 0%, 0.197) 66.1%,
+      hsla(0, 0%, 0%, 0.133) 73.4%,
+      hsla(0, 0%, 0%, 0.079) 80.6%,
+      hsla(0, 0%, 0%, 0.037) 87.4%,
+      hsla(0, 0%, 0%, 0.01) 93.9%,
+      hsla(0, 0%, 0%, 0) 100%
+    ),
+    url("../public/images/panorama.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.about-us-bg {
+  background-image: linear-gradient(
+      to top,
+      hsla(0, 0%, 0%, 0.76) 0%,
+      hsla(0, 0%, 0%, 0.75) 4.7%,
+      hsla(0, 0%, 0%, 0.723) 10.1%,
+      hsla(0, 0%, 0%, 0.681) 16.1%,
+      hsla(0, 0%, 0%, 0.627) 22.5%,
+      hsla(0, 0%, 0%, 0.563) 29.3%,
+      hsla(0, 0%, 0%, 0.492) 36.4%,
+      hsla(0, 0%, 0%, 0.418) 43.7%,
+      hsla(0, 0%, 0%, 0.342) 51.1%,
+      hsla(0, 0%, 0%, 0.268) 58.6%,
+      hsla(0, 0%, 0%, 0.197) 66.1%,
+      hsla(0, 0%, 0%, 0.133) 73.4%,
+      hsla(0, 0%, 0%, 0.079) 80.6%,
+      hsla(0, 0%, 0%, 0.037) 87.4%,
+      hsla(0, 0%, 0%, 0.01) 93.9%,
+      hsla(0, 0%, 0%, 0) 100%
+    ),
+    url("../public/images/barrow-bay.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.bg-langdale {
+  background-image: url("../public/images/langdale-image.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+}
+
+.bg-langdale::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: hsla(0, 0%, 0%, 0.3);
+  /* this is used to darken the background image */
+}
