@@ -8,7 +8,7 @@ export default function NavBar() {
       <header className="w-full flex flex-col md:flex-row justify-between items-center max-w-screen-2xl mx-auto bg-nature4 text-nature1 py-4">
         <div className="p-2 pl-3 hidden md:block">
           <NavLink href="/">
-            <img className="h-auto w-12" src="images/logo-transparent.png"  />
+            <img className="h-auto w-12" src="/images/logo-transparent.png"  />
           </NavLink>
         </div>
 
