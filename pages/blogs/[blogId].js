@@ -39,7 +39,10 @@ export default function BlogPage() {
     return(
         <Content>
         <div className="w-full text-center mx-auto bg-nature5">
-            <h1 className="py-[31px] md:py-[94px] font-serif text-3xl md:text-6xl tracking-tight text-nature1">{blog.title}</h1>
+            <div className="py-[31px] md:py-[94px]">
+                <h1 className="font-serif text-3xl md:text-6xl tracking-tight text-nature1">{blog.title}</h1>
+                <h2 className="font-sans text-1xl md:text-2xl tracking-tight text-nature1">{blog.author}</h2>
+            </div>
             <div className="text-justify px-8 md:px-24 py-16  mx-auto text-xl md:text-2xl text-nature1 tracking-tight bg-nature4">
                 <p className="">{blog.body}</p>
             </div>
